@@ -1,55 +1,11 @@
-/*_________________________Preset________________________________*/
-@font-face{
-  font-family: "knewave-outline.otf";
-  src: url("fonts/knewave-outline.otf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: "knewave-outline.ttf";
-  src: url("fonts/knewave-outline.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: "knewave-outline.otf";
-  src: url("fonts/knewave-outline.otf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: "knewave.otf";
-  src: url("fonts/knewave.otf");
-  font-weight: normal;
-  font-style: normal;
-}
 
 
-@font-face{
-  font-family: "knewave.ttf";
-  src: url("fonts/knewave.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-h1{
-  font-family: "knewave.otf" helvetica sans-serif;
-
-}
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family:  helvetica  "knewave.otf"  sans-serif;
-  font-size: 16px;
   font-variant-ligatures: normal;
   margin: 0px !important;
-}
-p{
-  font-family: helvetica sans-serif;
 }
 /* BE SURE TO INCLUDE THE CSS RESET FOUND IN THE DEMO PAGE'S CSS */
 
@@ -58,7 +14,6 @@ p{
 \*------------------------------------*/
 
 nav {
-  font-family: "Futura LT", sans-serif;
   font-weight: bold;
   display: flex;
 }
@@ -139,7 +94,6 @@ li a:hover {
 header {
   text-align: center;
   font-size: 2.5rem;
-  font-family: "knewave.ttf";
   font-weight: bolder;
   width: 100%;
   height: auto;
@@ -227,11 +181,7 @@ iframe {
   padding:0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Futura LT", sans-serif;
-  font-weight: bold;
-  text-align: center;
-}
+
 
 /*_________________________________________________________________*/
 
