@@ -1,29 +1,28 @@
 /*_________________________Preset________________________________*/
 
 body {
-  /*margin: auto;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: fantasy sans-serif serif;
   font-size: 16px;
   font-variant-ligatures: normal;
-  color: black;
+  margin: 0px !important;
 }
 nav {
+  font-family: "Futura LT", sans-serif;
+  font-weight: bold;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-
   width: 100%;
-  background-color: black;
+  background-color: #35303a;
   position: relative;
 }
 nav ul {
   margin: 0rem;
   padding: auto;
-  background-color: black;
 }
 nav li {
   display: inline-flex;
@@ -34,17 +33,18 @@ li a {
   text-align: center;
   padding: 1rem 2rem;
   text-decoration: none;
-  /*border-style: solid;
-  border-color: white;*/
 }
 li a:hover {
-  background-color: white;
-  color: black;
+  text-decoration: underline;
 }
 header {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: bolder;
+  width: 100%;
+  height: auto;
+  background-color: #f37321;
+  background-image: url("../assets/images/header-pattern.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
@@ -97,26 +97,20 @@ iframe {
 .body {
   width: 100%;
 }
-.head {
-  background-color: gray;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.head h1 {
-  margin: 0.5rem;
-}
+
 .logo {
-  width: 16rem;
-  height: 9rem;
-  background-color: black;
-  margin: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5rem 10rem 5rem 10rem;
+  max-width: 400px;
+  height: 300px;
+  background-image: url("../assets/images/songkran-logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: red;
+  background-size: contain;
 }
-.article_1 {
-  margin: .5rem auto;
-}
+
 .caption {
   margin: 1rem;
   text-align: center;
@@ -128,6 +122,12 @@ iframe {
 .footer{
   margin: 0;
   padding:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Futura LT", sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 /*_________________________________________________________________*/
@@ -142,7 +142,7 @@ iframe {
 /*_________________________________________________________________*/
 
 
-/*__________________________Media Queare_______________________________*/
+/*__________________________Media Query_______________________________*/
 
 @media all and (min-width:40rem) {
   .article_1 {
