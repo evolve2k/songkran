@@ -7,7 +7,7 @@
 h1 {
   padding-top: 2rem;
   font-size: 5rem;
-  color: #f37321;
+  color: #35303a;
 }
 
 h2 {
@@ -29,7 +29,7 @@ h3 {
     font-size: 1.8rem;
     line-height: 1rem;
     font-weight: bold;
-    color: #35303a;
+    color: #f37321;
 }
 
 .hero-image {
