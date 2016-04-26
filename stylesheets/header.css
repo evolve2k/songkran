@@ -7,6 +7,12 @@
 
 nav{
   width: 100%;
+  background-color: #35303A;
+}
+.nav{
+  max-width: 40rem;
+  margin: 0 auto;
+
 }
 #nav {
   display: flex;
@@ -17,7 +23,7 @@ nav{
   margin-top: 0;
   margin-bottom: 0;
   height: 3rem;
-  background-color: #35303A;
+
 }
 #nav > a, #nav > a:visited {
     display: none;
@@ -34,7 +40,7 @@ nav{
 
 #nav > ul {
     background-color: green;
-    max-width: 20rem;
+    max-width: 40rem;
     height: 3.75em;
     padding-top: 0;
     padding-bottom: 0;
@@ -43,11 +49,17 @@ nav{
     width: 6rem;
     height: 100%;
     float: left;
+    padding-bottom: .5rem;
+}
+.dropdown > li{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
+
+
 #nav > li > a:hover{
-  color: #349097;
-  text-decoration: none;
+  color:  #E5CA42;
 }
 
 /* second level */
