@@ -1,0 +1,52 @@
+.article-graphic {
+  max-height: 230px;
+  width: auto;
+}
+
+h1 {
+  padding-top: 2rem;
+  font-size: 5rem;
+  color: #f37321;
+}
+
+h2 {
+  font-size: 3rem;
+  max-width: 30rem;
+  hyphens: none;
+  line-height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+  color: #f37321;
+}
+
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    font-size: 1.8rem;
+    line-height: 1rem;
+    font-weight: bold;
+    color: #35303a;
+}
+
+.hero-image {
+  height: auto;
+  padding: 1rem;
+  background-color: #35303a;
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+.hero-image h1 {
+  line-height: 2rem;
+}
+
+.hero-image h3 {
+  font-size: 1.5rem;
+  color: #e4c94f;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6rem;
+}
