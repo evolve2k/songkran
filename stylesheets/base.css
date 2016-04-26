@@ -1,0 +1,55 @@
+@font-face{
+  font-family: "knewave-outline.otf";
+  src: url("fonts/knewave-outline.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "knewave-outline.ttf";
+  src: url("fonts/knewave-outline.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "knewave-outline.otf";
+  src: url("fonts/knewave-outline.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "knewave";
+  src: url("fonts/knewave.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face{
+  font-family: "knewave";
+  src: url("fonts/knewave.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-size: 16pt;
+  line-height: 1.70;
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "knewave", helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+section p{
+  padding: 0.5rem 1rem;
+  max-width: 40rem;
+}
