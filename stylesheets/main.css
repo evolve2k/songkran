@@ -20,63 +20,11 @@ main{
 
 nav {
   font-weight: bold;
-  display: flex;
+  /*display: flex;*/
 }
 
-#nav{
-    list-style:none;
-    width:auto;
-    margin-left: auto;
-    margin-right: auto;
-    /* Bring the nav above everything else--uncomment if needed.
-    position:relative;
-    z-index:5;
-    */
-}
-#nav li{
-    float: left;
-    margin-right:10px;
-    position:relative;
-}
-#nav a{
-    display:block;
-    padding:5px;
-    color:#fff;
-    color: black;
-    border-bottom-width: 0.5px;
-    border-bottom-style: solid;
-    border-bottom-color: black;
-    text-decoration:none;
-}
-#nav a:hover{
-    color: grey;
-    text-decoration:underline;
-}
-
-nav ul {
-  margin: 0rem;
-  padding: auto;
-}
-
-/*--- DROPDOWN ---*/
-#nav ul{
-    background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
-    list-style:none;
-    position:absolute;
-    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
-}
-#nav ul li{
-    padding-top:0px; /* Introducing a padding between the li and the a give the illusion spaced items */
-    float:none;
-}
-#nav ul a{
-    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
-}
-#nav li:hover ul{ /* Display the dropdown on hover */
-    left:0; /* Bring back on-screen when needed */
-}
-#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-    text-decoration:underline;
+.slideout-menu{
+  display: none;  /* Slide out menu does not show by default on mobile. */
 }
 
 header h6{
@@ -85,7 +33,6 @@ header h6{
 }
 
 li a {
-  color: white;
   text-align: center;
   padding: 1rem 2rem;
   text-decoration: none;
@@ -94,17 +41,12 @@ li a {
 li a:hover {
   text-decoration: underline;
 }
-#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
-    text-decoration:none;
-}
-#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
-    background:#333;
-}
 
 header {
   display: flex;
   justify-content: center;
-  text-align: center;
+  flex-direction: row;
+  /*text-align: center;*/
   font-size: 2.5rem;
   font-weight: bolder;
   width: 100%;
@@ -114,6 +56,12 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+header nav{
+  /*text-align: right;*/
+  flex-direction: column;
+  padding-right: 1rem;
 }
 
 footer {
@@ -134,8 +82,8 @@ footer li {
 
 }
 
-  footer h3{
-  }
+footer h3{
+}
 
 article {
   min-height: 17rem;
@@ -147,7 +95,7 @@ section {}
 caption {}
 figure {
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   align-items: center;
 }
 figcaption {}
@@ -222,7 +170,15 @@ header hgroup{
   padding:0;
 }
 
-
+.open{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(245, 115, 1, .98);
+}
 
 /*_________________________________________________________________*/
 
@@ -238,6 +194,8 @@ header hgroup{
 
 /*__________________________Media Query_______________________________*/
 
+
+
 @media all and (min-width:40rem) {
   .article_1 {
     max-width: 40rem;
@@ -248,4 +206,16 @@ header hgroup{
   .body .head{
     max-width: 100%;
   }
+}
+
+@media all and (min-width: 800px) {
+    #hamburger{
+      display: none;
+    }
+    #close-menu {
+      display:none;
+    }
+    .slideout-menu {
+      display: block;
+    }
 }
