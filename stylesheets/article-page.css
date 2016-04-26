@@ -1,6 +1,7 @@
 .article-graphic {
   max-height: 230px;
   width: auto;
+  margin: 0 auto;
 }
 
 h1 {
