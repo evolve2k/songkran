@@ -15,15 +15,7 @@ nav{
 
 }
 #nav {
-  display: flex;
-  flex-direction: row;
-  list-style:none;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  height: 3rem;
-
+  /*display: none;*/
 }
 #nav > a, #nav > a:visited {
     display: none;
@@ -56,8 +48,6 @@ nav{
     padding-bottom: .5rem;
 }
 
-
-
 #nav > li > a:hover{
   color:  #E5CA42;
 }
@@ -89,4 +79,18 @@ nav{
 
 .dropdown{
   background-color: #35303A;
+}
+
+@media all and (min-width: 800px) {
+  #nav {
+      display: flex;
+      flex-direction: row;
+      list-style:none;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 0;
+      margin-bottom: 0;
+      height: 3rem;
+    }
+  }
 }

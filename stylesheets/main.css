@@ -173,6 +173,20 @@ header hgroup{
   height: 100%;
   width: 100%;
   background-color: rgba(245, 115, 1, .98);
+  margin-top: -1px;
+  padding-top: 2rem;
+}
+
+.open ul{
+  left: 0;
+}
+
+.open li:hover ul {
+    display: block;
+}
+
+.open > a, .open> a:visited {
+    display: block;
 }
 
 /*_________________________________________________________________*/
@@ -212,5 +226,8 @@ header hgroup{
     }
     .slideout-menu{
       display: block;
+    }
+    #nav {
+      display: flex;
     }
 }
