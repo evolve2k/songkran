@@ -177,6 +177,37 @@ header hgroup{
   padding-top: 2rem;
 }
 
+.open .home{
+  display: none;
+}
+
+.open ul{
+    background-color: rgba(245, 115, 1, .98);
+}
+
+.open > li > a{
+  font-size: 150%;
+}
+
+.open li ul {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  padding-left: 4rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.open .dropdown li, .open .dropdown a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.open li{
+  list-style: none;
+}
+
 .open ul{
   left: 0;
 }
@@ -227,7 +258,7 @@ header hgroup{
     .slideout-menu{
       display: block;
     }
-    #nav {
+    .nav {
       display: flex;
     }
 }

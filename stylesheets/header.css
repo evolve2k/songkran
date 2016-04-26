@@ -14,30 +14,30 @@ nav{
   margin: 0 auto;
 
 }
-#nav {
+.nav {
   /*display: none;*/
 }
-#nav > a, #nav > a:visited {
+.nav > a, .nav > a:visited {
     display: none;
 }
-#nav li {
+.nav li {
     position: relative;
 }
 
 /* first level */
 
-#nav a {
+.nav a {
   color: white;
 }
 
-#nav > ul {
+.nav > ul {
     background-color: green;
     max-width: 40rem;
     height: 3.75em;
     padding-top: 0;
     padding-bottom: 0;
 }
-#nav > ul > li {
+.nav > ul > li {
     width: 6rem;
     height: 100%;
     float: left;
@@ -48,13 +48,13 @@ nav{
     padding-bottom: .5rem;
 }
 
-#nav > li > a:hover{
+.nav > li > a:hover{
   color:  #E5CA42;
 }
 
 /* second level */
 
-#nav li ul {
+.nav li ul {
     display: none;
     position: absolute;
     top: 100%;
@@ -62,16 +62,16 @@ nav{
     width: 12rem;
 }
 
-#nav li:hover ul {
+.nav li:hover ul {
     display: block;
 }
 
-#nav li ul a {
+.nav li ul a {
   padding-left: 0;
   padding-right: 0;
 }
 
-#nav li ul a:hover {
+.nav li ul a:hover {
   color: #E5CA42;
   text-decoration: none;
 }
@@ -82,7 +82,7 @@ nav{
 }
 
 @media all and (min-width: 800px) {
-  #nav {
+  .nav {
       display: flex;
       flex-direction: row;
       list-style:none;
