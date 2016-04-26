@@ -1,4 +1,6 @@
+console.log("Slideout Doc Loaded");
 $(document).ready(function () {
+
     $('.toggle-menu').on('click', function(event){
       console.log("toggle clicked");
     	event.preventDefault();

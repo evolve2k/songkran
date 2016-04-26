@@ -19,9 +19,13 @@
         </div>
         <h6>13-15 March</h6>
       </hgroup>
+      <nav>
+        <img id="hamburger" class="toggle-menu" src="assets/images/hamburger.svg" />
+      </nav>
     </header>
     <nav>
-      <ul id="nav">
+      <ul class="slideout-menu">
+        <span class="toggle-menu">X</span>
         <li>
           <a href="#">Home</a>
         </li>
@@ -119,5 +123,13 @@
       </ul>
     </nav>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+    // Use local jQuery if CDN unavailable
+      if (typeof jQuery === 'undefined') {
+        document.write(unescape('%3Cscript%20src%3D%22/assets/javascripts/jquery-2.2.0.min.js%22%3E%3C/script%3E'));
+      }
+    </script>
+    <script src="assets/javascripts/slide-out-menu.js"></script>
   </body>
 </html>
