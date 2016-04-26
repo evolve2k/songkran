@@ -81,6 +81,7 @@ nav ul {
 
 header h6{
   color: white;
+  font-size: 28pt;
 }
 
 li a {
@@ -101,13 +102,15 @@ li a:hover {
 }
 
 header {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 2.5rem;
   font-weight: bolder;
   width: 100%;
-  height: auto;
-  background-color: #f37321;
+  height: 30rem;
   background-image: url("../assets/images/header-pattern.svg");
+  background-color: rgba(245, 115, 1, .80);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,15 +152,29 @@ figure {
 }
 figcaption {}
 
-iframe {
+/*iframe {
   min-width: 100%;
   min-height: 36%;
   margin: 1rem 0rem;
+}*/
+
+/*
+.video iframe {
+  height: 25rem;
+  width: 49rem; }*/
+
+.video{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .video iframe {
-  height: 25rem;
-  width: 49rem; }
+    height: 11rem;
+    width: 19rem; }
 
 /*_________________________________________________________________*/
 
@@ -169,21 +186,27 @@ iframe {
 }
 
 .logo {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5rem 10rem 0rem 10rem;
-  max-width: 400px;
-  height: 12rem;
-  background-image: url("../assets/images/songkran-logo.svg");
+  /*background-image: url("../assets/images/songkran-logo.svg");*/
   background-position: center;
   background-repeat: no-repeat;
-  color: red;
   background-size: contain;
+  max-width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.logo img{
+  width: 100%;
 }
 
 header hgroup{
-  padding-top: 3rem;
+  width: 40rem;
+  padding-top: 7rem;
   padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .caption {
