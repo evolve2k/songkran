@@ -18,11 +18,6 @@ main{
     NAV
 \*------------------------------------*/
 
-nav {
-  font-weight: bold;
-  /*display: flex;*/
-}
-
 .slideout-menu{
   display: none;  /* Slide out menu does not show by default on mobile. */
 }
@@ -215,7 +210,7 @@ header hgroup{
     #close-menu {
       display:none;
     }
-    .slideout-menu {
+    .slideout-menu{
       display: block;
     }
 }

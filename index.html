@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="stylesheets/normalize.css">
     <link rel="stylesheet" href="stylesheets/typeplate.css">
     <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/header.css">
     <link rel="stylesheet" href="stylesheets/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -19,21 +20,21 @@
         </div>
         <h6>13-15 March</h6>
       </hgroup>
-      <nav>
+      <!-- <nav>
         <img id="hamburger" class="toggle-menu" src="assets/images/hamburger.svg" />
-      </nav>
+      </nav> -->
     </header>
     <nav>
-      <ul class="slideout-menu">
+      <ul id="nav" class="slideout-menu" role="navigation">
         <span id="close-menu" class="toggle-menu">X</span>
         <li>
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">Why</a>
+          <a href="#" aria-haspopup="true">Why</a>
           <ul class="dropdown">
             <li>
-              <a href="#">History</a>
+              <a href="#" >History</a>
             </li>
             <li>
               <a href="#">Understanding the Festival</a>
@@ -44,8 +45,8 @@
           </ul>
         </li>
         <li>
-          <a href="#">How</a>
-          <ul>
+          <a href="#" aria-haspopup="true">How</a>
+          <ul class="dropdown">
             <li>
               <a href="#">Protecting your Stuff</a>
             </li>
@@ -64,8 +65,8 @@
           </ul>
         </li>
         <li>
-          <a href="#">Where</a>
-          <ul>
+          <a href="#" aria-haspopup="true">Where</a>
+          <ul class="dropdown">
             <li>
               <a href="#">Where to Go</a>
             </li>
@@ -76,6 +77,7 @@
         </li>
       </ul>
     </nav>
+
     <main>
       <div class="video">
         <iframe src="https://www.youtube.com/embed/thpsmZiDv6U"></iframe>
