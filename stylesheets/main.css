@@ -24,16 +24,7 @@ nav {
 }
 
 .slideout-menu{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(245, 115, 1, .98);
-}
-
-.closed{
-  display: none;
+  display: none;  /* Slide out menu does not show by default on mobile. */
 }
 
 header h6{
@@ -92,8 +83,8 @@ footer li {
 
 }
 
-  footer h3{
-  }
+footer h3{
+}
 
 article {
   min-height: 17rem;
@@ -180,12 +171,14 @@ header hgroup{
   padding:0;
 }
 
-.slideout-menu{
-  display: none;
-}
-
 .open{
   display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(245, 115, 1, .98);
 }
 
 /*_________________________________________________________________*/
@@ -214,4 +207,16 @@ header hgroup{
   .body .head{
     max-width: 100%;
   }
+}
+
+@media all and (min-width: 800px) {
+    #hamburger{
+      display: none;
+    }
+    #close-menu {
+      display:none;
+    }
+    .slideout-menu {
+      display: block;
+    }
 }
