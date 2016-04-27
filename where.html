@@ -16,6 +16,9 @@
 </head>
 
 <body>
+  <div>
+    <img id="hamburger" class="toggle-menu" src="assets/images/hamburger.svg" />
+  </div>
     <header>
         <hgroup>
             <div class="logo">
@@ -32,7 +35,7 @@
           <a href="index.html">Home</a>
         </li>
         <li>
-          <a href="where.html" aria-haspopup="true">Where</a>
+          <a class="active" href="where.html" aria-haspopup="true">Where</a>
           <ul class="dropdown">
             <li>
               <a href="where.html#water-fights">Water Fights</a>
@@ -140,7 +143,14 @@
             <br /> <a href="about.html">Meet the team</a> and <a href="about.html">learn more about the project.</a>
         </p>
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+    // Use local jQuery if CDN unavailable
+      if (typeof jQuery === 'undefined') {
+        document.write(unescape('%3Cscript%20src%3D%22assets/javascripts/jquery-2.2.0.min.js%22%3E%3C/script%3E'));
+      }
+    </script>
+    <script src="assets/javascripts/slide-out-menu.js"></script>
 </body>
 
 </html>

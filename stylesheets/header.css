@@ -6,7 +6,6 @@ footer {
   font-size: 1rem;
   text-align: center;
   margin: 0px !important;
-  padding: 1rem;
 }
 footer p{
     margin: 0 0 0 0 !important;
@@ -44,12 +43,17 @@ nav {
 }
 
 /* first level */
-
 .nav a {
     color: white;
     font-weight: bold;
     font-size: 1rem;
 }
+
+.nav li .active {
+  color: #407E8A;
+  font-weight: bolder;
+}
+
 .nav > ul {
     font-weight: bold;
     max-width: 40rem;
