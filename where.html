@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/header.css">
     <link rel="stylesheet" href="stylesheets/typeplate.css">
     <link rel="stylesheet" href="stylesheets/base.css">
     <link rel="stylesheet" href="stylesheets/main.css">
@@ -24,57 +25,59 @@
         </hgroup>
     </header>
     <nav>
-        <ul id="nav">
+      <div>
+      <ul class="slideout-menu nav" role="navigation">
+        <span id="close-menu" class="toggle-menu">X</span>
+        <li class="home">
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="where.html" aria-haspopup="true">Where</a>
+          <ul class="dropdown">
             <li>
-                <a href="#">Home</a>
+              <a href="where.html#water-fights">Water Fights</a>
             </li>
             <li>
-                <a href="#">Why</a>
-                <ul class="dropdown">
-                    <li>
-                        <a href="#">History</a>
-                    </li>
-                    <li>
-                        <a href="#">Understanding the Festival</a>
-                    </li>
-                    <li>
-                        <a href="#">Religion and Ceremonies</a>
-                    </li>
-                </ul>
+              <a href="where.html#where-to-go">Where to Go</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="how.html" aria-haspopup="true">How</a>
+          <ul class="dropdown">
+            <li>
+              <a href="how.html#protect">Protecting your Stuff</a>
             </li>
             <li>
-                <a href="#">How</a>
-                <ul>
-                    <li>
-                        <a href="#">Protecting your Stuff</a>
-                    </li>
-                    <li>
-                        <a href="#">How to Stay Safe</a>
-                    </li>
-                    <li>
-                        <a href="#">What to Wear</a>
-                    </li>
-                    <li>
-                        <a href="#">What to Bring</a>
-                    </li>
-                    <li>
-                        <a href="#">Do's and Dont's</a>
-                    </li>
-                </ul>
+              <a href="how.html#safe">How to Stay Safe</a>
             </li>
             <li>
-                <a href="#">Where</a>
-                <ul>
-                    <li>
-                        <a href="#">Where to Go</a>
-                    </li>
-                    <li>
-                        <a href="#">Water Fights</a>
-                    </li>
-                </ul>
+              <a href="how.html#wear">What to Wear</a>
             </li>
-        </ul>
+            <li>
+              <a href="how.html#bring">What to Bring</a>
+            </li>
+            <li>
+              <a href="how.html#do-dont">Do's and Dont's</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="why.html" aria-haspopup="true">Why</a>
+          <ul class="dropdown">
+            <li>
+              <a href="why.html#history" >History</a>
+            </li>
+            <li>
+              <a href="why.html#religion">Religion and Ceremonies</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
     </nav>
+
 
     <main>
       <article>

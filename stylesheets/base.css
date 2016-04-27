@@ -5,6 +5,13 @@ h2: 66/80
 h3: 50/60
 h4: 34/40*/
 
+/*
+  Colours
+  Brown: #35303A;
+  Green: #349097;
+*/
+
+
 
 
 @font-face{
@@ -46,6 +53,7 @@ h4: 34/40*/
 body{
   font-size: 16pt;
   line-height: 1.70;
+  font-feature-settings: "kern", "liga", "case";
   font-family: -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue",
