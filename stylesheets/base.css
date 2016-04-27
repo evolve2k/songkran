@@ -1,3 +1,12 @@
+/*Stylesheet Defined Font Sizes
+Oversized:
+h1: 130/160
+h2: 66/80
+h3: 50/60
+h4: 34/40*/
+
+
+
 @font-face{
   font-family: "knewave-outline.otf";
   src: url("fonts/knewave-outline.otf");
@@ -47,6 +56,32 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "knewave", helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
+}
+
+/*Oversized:
+h1: 130/160
+h2: 66/80
+h3: 50/60
+h4: 34/40*/
+
+h1{
+
+}
+
+h2{
+  font-size: 50pt;
+}
+
+h3{
+  font-size: 34pt;
+}
+
+h4{
+
+}
+
+h5{
+
 }
 
 section p{
