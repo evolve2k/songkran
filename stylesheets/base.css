@@ -37,6 +37,7 @@
 body{
   font-size: 16pt;
   line-height: 1.70;
+  font-feature-settings: "kern", "liga", "case";
   font-family: -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue",
