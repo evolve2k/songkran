@@ -269,7 +269,7 @@ header hgroup{
       display: flex;
     }
     .video iframe {
-      height: 22rem;
+      height: 21.5rem;
       width: 38rem;
     }
 }
