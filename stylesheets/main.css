@@ -269,4 +269,8 @@ header hgroup{
     .nav {
       display: flex;
     }
+    .video iframe {
+      height: 22rem;
+      width: 38rem;
+    }
 }
