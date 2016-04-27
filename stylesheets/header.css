@@ -64,7 +64,6 @@ nav {
     padding-bottom: .5rem;
 }
 .dropdown > li {
-    line-height: auto;
     font-weight: bold;
 }
 
@@ -108,7 +107,6 @@ nav {
 }
 .nav li:hover ul {
     display: block;
-    text-decoraion: none !important;
 }
 .nav li ul a {
     font-size: 1rem !important;
@@ -139,6 +137,4 @@ nav {
         margin-bottom: 0;
         height: 3rem;
     }
-}
-
 }
