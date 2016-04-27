@@ -1,7 +1,7 @@
 
 footer {
   color: white;
-  background-color: #35303a;
+  background-color: #35303a !important;
   height: auto;
   font-size: 1rem;
   text-align: center;
@@ -43,12 +43,17 @@ nav {
 }
 
 /* first level */
-
 .nav a {
     color: white;
     font-weight: bold;
     font-size: 1rem;
 }
+
+.nav li .active {
+  color: #407E8A;
+  font-weight: bolder;
+}
+
 .nav > ul {
     font-weight: bold;
     max-width: 40rem;
