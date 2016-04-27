@@ -18,6 +18,12 @@ main{
     NAV
 \*------------------------------------*/
 
+#hamburger {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
 .slideout-menu{
   display: none;  /* Slide out menu does not show by default on mobile. */
 }
