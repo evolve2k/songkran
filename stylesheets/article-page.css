@@ -5,10 +5,14 @@
 }
 
 .about-photo {
-  border-radius: 1rem;
-  max-width: 40rem;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.group-photo-caption {
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 section {
