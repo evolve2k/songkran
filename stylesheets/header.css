@@ -141,4 +141,7 @@ nav {
         margin-bottom: 0;
         height: 3rem;
     }
+    .about-photo {
+      border-radius: 1rem;
+    }
 }
